@@ -1,0 +1,22 @@
+# PyTorch (CUDA 11.8 version)
+torch==2.1.2+cu118
+torchvision==0.16.2+cu118
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+# Shap-E from GitHub
+git+https://github.com/openai/shap-e.git
+
+# Image handling
+Pillow==10.2.0
+
+# Mesh processing
+trimesh==4.0.5
+
+# Numerical operations
+numpy==1.26.4
+
+# Progress bars
+tqdm==4.66.1
+
+# Optional but recommended
+scipy==1.11.4
