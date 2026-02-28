@@ -24,3 +24,5 @@ Limitations
 ❌ Texture quality is limited
 ❌ Requires GPU for faster performance
 ❌ Not fully accurate for complex shapes
+
+LATENCY:10S-40S
