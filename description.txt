@@ -1,0 +1,26 @@
+Technologies Used
+Python	Programming language
+PyTorch	Model loading and GPU computation
+Shap-E	3D generative model
+Diffusion Model	Latent 3D generation
+Pillow	Image processing
+Trimesh	Mesh creation & export
+
+Diffusion Model Explanation
+Shap-E uses a diffusion probabilistic model:
+Process:
+Start with random noise
+
+Gradually denoise step-by-step
+
+Learn structure from training data
+
+Produce meaningful 3D representation
+
+
+Limitations
+
+❌ May generate imperfect geometry
+❌ Texture quality is limited
+❌ Requires GPU for faster performance
+❌ Not fully accurate for complex shapes
