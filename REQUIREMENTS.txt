@@ -1,0 +1,37 @@
+REQUIREMENTS.txt (TripoSR)
+
+# Python version
+python>=3.9
+
+# PyTorch (CUDA 11.8)
+torch==2.1.2+cu118
+torchvision==0.16.2+cu118
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+# TripoSR (from GitHub)
+git+https://github.com/VAST-AI-Research/TripoSR.git
+
+# Transformers & acceleration
+transformers==4.36.2
+accelerate==0.25.0
+huggingface_hub==0.19.4
+
+# Background removal
+rembg==2.0.50
+onnxruntime-gpu==1.17.1
+
+# Image handling
+Pillow==10.2.0
+opencv-python==4.9.0.80
+
+# Mesh processing
+trimesh==4.0.5
+
+# Numerical operations
+numpy==1.26.4
+scipy==1.11.4
+
+# Visualization & utilities
+matplotlib==3.8.2
+tqdm==4.66.1
+
